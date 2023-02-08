@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_axe"
+  },
+  "addition": {
+    "item": "currency:ruby"
+  },
+  "result": {
+    "item": "currency:ruby_axe"
+  }
+}

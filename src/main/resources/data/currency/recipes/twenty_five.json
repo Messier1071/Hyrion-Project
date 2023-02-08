@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "currency:five_jule"
+    },
+    {
+      "item": "currency:five_jule"
+    },
+    {
+      "item": "currency:five_jule"
+    },
+    {
+      "item": "currency:five_jule"
+    },
+    {
+      "item": "currency:five_jule"
+    }
+  ],
+  "result": {
+    "item": "currency:twenty_five_jule",
+    "count": 1
+  }
+}

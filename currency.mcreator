@@ -1,0 +1,286 @@
+{
+  "mod_elements": [
+    {
+      "name": "Jule",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jule"
+    },
+    {
+      "name": "Hyrion",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyrion"
+    },
+    {
+      "name": "HyrionRuby",
+      "type": "fluid",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyrion_ruby",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "BucketOfRuby",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucket_of_ruby"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_craft"
+    },
+    {
+      "name": "JuleCraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jule_craft"
+    },
+    {
+      "name": "OneHundredJule",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_hundred_jule"
+    },
+    {
+      "name": "FiveJule",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five_jule"
+    },
+    {
+      "name": "FiftyJule",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty_jule"
+    },
+    {
+      "name": "Five",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "five"
+    },
+    {
+      "name": "TwentyFiveJule",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twenty_five_jule"
+    },
+    {
+      "name": "TwentyFive",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twenty_five"
+    },
+    {
+      "name": "Fifty",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifty"
+    },
+    {
+      "name": "OneHundred",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_hundred"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe"
+    },
+    {
+      "name": "PickAxe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick_axe"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe"
+    },
+    {
+      "name": "AxeRuby",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_ruby"
+    },
+    {
+      "name": "ExchangeOne",
+      "type": "villagertrade",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exchange_one"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel"
+    },
+    {
+      "name": "RubySpade",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_spade"
+    },
+    {
+      "name": "BottledRuby",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottled_ruby"
+    },
+    {
+      "name": "RubyBottle",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bottle"
+    },
+    {
+      "name": "Plasma",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma"
+    },
+    {
+      "name": "PlasmaBottle",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasma_bottle"
+    },
+    {
+      "name": "Bottle",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle"
+    },
+    {
+      "name": "RubyBottleCraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bottle_craft"
+    },
+    {
+      "name": "HyrionDeserts",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyrion_deserts"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.currency.fifty_jule": "Fifty Jule",
+      "item.currency.plasma": "Hyrion Ruby Plasma",
+      "item.currency.jule": "Jule",
+      "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
+      "biome.currency.hyrion_deserts": "Hyrion Deserts",
+      "block.currency.hyrion_ruby": "Hyrion Ruby",
+      "item.currency.ruby_axe": "Hyrion Ruby Axe",
+      "item.currency.plasma_bottle": "Plasma Bottle",
+      "item.currency.ruby_shovel": "Hyrion Ruby Shovel",
+      "item.currency.ruby_pickaxe": "Hyrion Ruby Pickaxe",
+      "itemGroup.tabhyrion": "Hyrion",
+      "item.currency.one_hundred_jule": "One Hundred Jule",
+      "fluid.currency.hyrion_ruby": "Hyrion Ruby",
+      "item.currency.ruby": "Ruby",
+      "item.currency.five_jule": "Five Jule",
+      "item.currency.bottled_ruby": "Hyrion Ruby Plasma",
+      "item.currency.twenty_five_jule": "Twenty Five Jule",
+      "item.currency.bucket_of_ruby": "Bucket Of Ruby"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "currency",
+    "modName": "Currency",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.currency",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
