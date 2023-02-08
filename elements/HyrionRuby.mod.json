@@ -4,8 +4,8 @@
   "definition": {
     "name": "Hyrion Ruby",
     "bucketName": "Hyrion Ruby Bucket",
-    "textureStill": "rubywater",
-    "textureFlowing": "flowingruby",
+    "textureStill": "water_still",
+    "textureFlowing": "water_flow",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,

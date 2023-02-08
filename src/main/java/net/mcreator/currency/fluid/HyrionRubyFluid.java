@@ -18,7 +18,7 @@ import net.mcreator.currency.init.CurrencyModBlocks;
 public abstract class HyrionRubyFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(CurrencyModFluids.HYRION_RUBY,
 			CurrencyModFluids.FLOWING_HYRION_RUBY,
-			FluidAttributes.builder(new ResourceLocation("currency:blocks/rubywater"), new ResourceLocation("currency:blocks/flowingruby"))
+			FluidAttributes.builder(new ResourceLocation("currency:blocks/water_still"), new ResourceLocation("currency:blocks/water_flow"))
 
 					.rarity(Rarity.EPIC))
 			.explosionResistance(100f)
