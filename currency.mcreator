@@ -57,7 +57,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "jule_craft"
+      "registry_name": "jule_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "OneHundredJule",
@@ -73,7 +74,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "five_jule"
+      "registry_name": "five_jule",
+      "path": "~/Tools"
     },
     {
       "name": "FiftyJule",
@@ -89,7 +91,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "five"
+      "registry_name": "five",
+      "path": "~/Recipes"
     },
     {
       "name": "TwentyFiveJule",
@@ -105,7 +108,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "twenty_five"
+      "registry_name": "twenty_five",
+      "path": "~/Recipes"
     },
     {
       "name": "Fifty",
@@ -113,7 +117,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fifty"
+      "registry_name": "fifty",
+      "path": "~/Recipes"
     },
     {
       "name": "OneHundred",
@@ -121,7 +126,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "one_hundred"
+      "registry_name": "one_hundred",
+      "path": "~/Recipes"
     },
     {
       "name": "RubyPickaxe",
@@ -129,7 +135,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_pickaxe"
+      "registry_name": "ruby_pickaxe",
+      "path": "~/Tools"
     },
     {
       "name": "PickAxe",
@@ -137,7 +144,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pick_axe"
+      "registry_name": "pick_axe",
+      "path": "~/Recipes"
     },
     {
       "name": "RubyAxe",
@@ -145,7 +153,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_axe"
+      "registry_name": "ruby_axe",
+      "path": "~/Tools"
     },
     {
       "name": "AxeRuby",
@@ -153,7 +162,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "axe_ruby"
+      "registry_name": "axe_ruby",
+      "path": "~/Recipes"
     },
     {
       "name": "ExchangeOne",
@@ -217,7 +227,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_bottle_craft"
+      "registry_name": "ruby_bottle_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "HyrionDeserts",
@@ -233,7 +244,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gel_craft"
+      "registry_name": "gel_craft",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -265,6 +277,10 @@
     "children": [
       {
         "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tools",
         "children": []
       }
     ]
