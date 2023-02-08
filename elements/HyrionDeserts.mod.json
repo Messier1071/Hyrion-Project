@@ -49,9 +49,9 @@
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
-    "mushroomsPerChunk": 10,
+    "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
-    "sandPatchesPerChunk": 15,
+    "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
@@ -92,8 +92,6 @@
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
-      "Ores",
-      "DesertFeatures",
       "AmethystGeodes",
       "Fossils"
     ],

@@ -16,7 +16,7 @@ import java.util.List;
 
 public class PlasmaItem extends Item {
 	public PlasmaItem() {
-		super(new Item.Properties().tab(CurrencyModTabs.TAB_HYRION).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CurrencyModTabs.TAB_HYRION).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

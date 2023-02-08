@@ -4,17 +4,17 @@
   "definition": {
     "recipeType": "Blasting",
     "xpReward": 1.0,
-    "cookingTime": 200,
+    "cookingTime": 100,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "CUSTOM:HyrionRuby.bucket"
-    },
-    "blastingReturnStack": {
       "value": "CUSTOM:Plasma"
     },
-    "name": "ruby_bottle",
+    "blastingReturnStack": {
+      "value": "CUSTOM:Ruby"
+    },
+    "name": "gel_craft",
     "namespace": "mod"
   }
 }

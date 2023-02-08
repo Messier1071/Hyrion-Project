@@ -15,7 +15,7 @@
       "value": "Items.WATER_BUCKET"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Ruby"
+      "value": "CUSTOM:Plasma"
     },
     "name": "ruby_craft",
     "namespace": "mod"
