@@ -71,7 +71,7 @@ public class CurrencyModBiomes {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 						surfaceRules.add(1,
 								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HYRION_DESERTS.getId()),
-										Blocks.SAND.defaultBlockState(), Blocks.SMOOTH_SANDSTONE.defaultBlockState(),
+										Blocks.DEEPSLATE.defaultBlockState(), Blocks.SMOOTH_SANDSTONE.defaultBlockState(),
 										Blocks.SMOOTH_SANDSTONE.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
@@ -101,8 +101,9 @@ public class CurrencyModBiomes {
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 						surfaceRules.add(2,
-								anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HYRION_DESERTS.getId()), Blocks.SAND.defaultBlockState(),
-										Blocks.SMOOTH_SANDSTONE.defaultBlockState(), Blocks.SMOOTH_SANDSTONE.defaultBlockState()));
+								anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HYRION_DESERTS.getId()),
+										Blocks.DEEPSLATE.defaultBlockState(), Blocks.SMOOTH_SANDSTONE.defaultBlockState(),
+										Blocks.SMOOTH_SANDSTONE.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
 								SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(),

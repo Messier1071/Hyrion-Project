@@ -4,7 +4,7 @@
   "definition": {
     "name": "Hyrion Deserts",
     "groundBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "Blocks.DEEPSLATE"
     },
     "undergroundBlock": {
       "value": "Blocks.SMOOTH_SANDSTONE"
@@ -45,7 +45,7 @@
     "spawnBiome": true,
     "spawnBiomeNether": true,
     "spawnInCaves": false,
-    "biomeWeight": 15,
+    "biomeWeight": 10,
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,

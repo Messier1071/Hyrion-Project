@@ -45,6 +45,9 @@
       {
         "value": "CUSTOM:HyrionDeserts"
       }
-    ]
+    ],
+    "onNeighbourChanges": {
+      "name": "HyrionRubyExposedToAir"
+    }
   }
 }
