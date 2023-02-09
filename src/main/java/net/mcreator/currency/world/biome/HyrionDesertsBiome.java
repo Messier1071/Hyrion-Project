@@ -9,10 +9,10 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
 public class HyrionDesertsBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.857142857143f, 1.142857142857f),
-			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
-			Climate.Parameter.span(0.757142857143f, 1.042857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(0.452340242717f, 0.738054528431f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.785714285714f, 1.214285714286f),
+			Climate.Parameter.span(-0.214285714286f, 0.214285714286f), Climate.Parameter.span(0.305714285714f, 0.734285714286f),
+			Climate.Parameter.span(0.685714285714f, 1.114285714286f), Climate.Parameter.point(0),
+			Climate.Parameter.span(0.380911671288f, 0.80948309986f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6715896).waterColor(4159204).waterFogColor(-6723857)
