@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "currency:blocks/gelcube",
+    "up": "currency:blocks/gelcube",
+    "north": "currency:blocks/gelcube",
+    "east": "currency:blocks/gelcube",
+    "south": "currency:blocks/gelcube",
+    "west": "currency:blocks/gelcube",
+    "particle": "currency:blocks/gelcube"
+  }
+}

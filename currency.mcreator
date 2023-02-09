@@ -31,15 +31,6 @@
       "path": "~/Materials"
     },
     {
-      "name": "BucketOfRuby",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bucket_of_ruby",
-      "path": "~/Materials"
-    },
-    {
       "name": "Ruby",
       "type": "item",
       "sortid": 3,
@@ -262,6 +253,14 @@
       "locked_code": false,
       "registry_name": "gel_craft",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Gelcube",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gelcube"
     }
   ],
   "variable_elements": [],
@@ -273,6 +272,7 @@
       "item.currency.jule": "Jule",
       "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
       "biome.currency.hyrion_deserts": "Hyrion Deserts",
+      "block.currency.gelcube": "Gelcube",
       "block.currency.hyrion_ruby": "Hyrion Ruby",
       "item.currency.ruby_axe": "Hyrion Ruby Axe",
       "item.currency.plasma_bottle": "Plasma Bottle",
@@ -284,8 +284,7 @@
       "item.currency.ruby": "Ruby",
       "item.currency.five_jule": "Five Jule",
       "item.currency.bottled_ruby": "Hyrion Ruby Gel Bottle",
-      "item.currency.twenty_five_jule": "Twenty Five Jule",
-      "item.currency.bucket_of_ruby": "Bucket Of Ruby"
+      "item.currency.twenty_five_jule": "Twenty Five Jule"
     }
   },
   "foldersRoot": {

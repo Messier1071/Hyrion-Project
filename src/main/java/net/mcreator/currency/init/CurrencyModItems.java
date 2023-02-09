@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.currency.item.TwentyFiveJuleItem;
 import net.mcreator.currency.item.RubyShovelItem;
@@ -22,7 +25,6 @@ import net.mcreator.currency.item.JuleItem;
 import net.mcreator.currency.item.HyrionRubyItem;
 import net.mcreator.currency.item.FiveJuleItem;
 import net.mcreator.currency.item.FiftyJuleItem;
-import net.mcreator.currency.item.BucketOfRubyItem;
 import net.mcreator.currency.item.BottledRubyItem;
 import net.mcreator.currency.CurrencyMod;
 
@@ -30,7 +32,6 @@ public class CurrencyModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CurrencyMod.MODID);
 	public static final RegistryObject<Item> JULE = REGISTRY.register("jule", () -> new JuleItem());
 	public static final RegistryObject<Item> HYRION_RUBY_BUCKET = REGISTRY.register("hyrion_ruby_bucket", () -> new HyrionRubyItem());
-	public static final RegistryObject<Item> BUCKET_OF_RUBY = REGISTRY.register("bucket_of_ruby", () -> new BucketOfRubyItem());
 	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
 	public static final RegistryObject<Item> ONE_HUNDRED_JULE = REGISTRY.register("one_hundred_jule", () -> new OneHundredJuleItem());
 	public static final RegistryObject<Item> FIVE_JULE = REGISTRY.register("five_jule", () -> new FiveJuleItem());
@@ -42,4 +43,9 @@ public class CurrencyModItems {
 	public static final RegistryObject<Item> BOTTLED_RUBY = REGISTRY.register("bottled_ruby", () -> new BottledRubyItem());
 	public static final RegistryObject<Item> PLASMA = REGISTRY.register("plasma", () -> new PlasmaItem());
 	public static final RegistryObject<Item> PLASMA_BOTTLE = REGISTRY.register("plasma_bottle", () -> new PlasmaBottleItem());
+	public static final RegistryObject<Item> GELCUBE = block(CurrencyModBlocks.GELCUBE, CurrencyModTabs.TAB_HYRION);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }
