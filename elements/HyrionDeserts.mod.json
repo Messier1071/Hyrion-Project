@@ -4,7 +4,7 @@
   "definition": {
     "name": "Hyrion Deserts",
     "groundBlock": {
-      "value": "Blocks.DEEPSLATE"
+      "value": "Blocks.SAND#0"
     },
     "undergroundBlock": {
       "value": "Blocks.SMOOTH_SANDSTONE"
@@ -12,8 +12,8 @@
     "underwaterBlock": {
       "value": ""
     },
-    "airColor": {
-      "value": -6715896,
+    "waterColor": {
+      "value": -65281,
       "falpha": 0.0
     },
     "waterFogColor": {
@@ -54,7 +54,7 @@
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
+    "cactiPerChunk": 4,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
@@ -93,7 +93,8 @@
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "AmethystGeodes",
-      "Fossils"
+      "Fossils",
+      "DesertFeatures"
     ],
     "spawnEntries": []
   }
