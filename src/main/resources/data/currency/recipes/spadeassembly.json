@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "currency:handle"
+    "item": "currency:deleted_mod_element"
   },
   "addition": {
-    "item": "currency:shovelhead"
+    "item": "currency:deleted_mod_element"
   },
   "result": {
     "item": "currency:ruby_shovel"

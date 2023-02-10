@@ -220,6 +220,120 @@
       "path": "~/Recipes"
     },
     {
+      "name": "Spadeprocessing",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spadeprocessing",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Spadeassembly",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spadeassembly",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Extractorgui",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractorgui"
+    },
+    {
+      "name": "RubyShovelToolInHandTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "GelChunk",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_chunk"
+    },
+    {
+      "name": "GelChance",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_chance"
+    },
+    {
+      "name": "RubySmelt",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_smelt",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Coatedshovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coatedshovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Handle",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle",
+      "path": "~/Tools"
+    },
+    {
+      "name": "CreativePower",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_power"
+    },
+    {
+      "name": "Handlerecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handlerecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OnButtonClick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_button_click",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
       "name": "Gelcube",
       "type": "block",
       "sortid": 29,
@@ -257,36 +371,12 @@
       "path": "~/Materials"
     },
     {
-      "name": "GelChunk",
+      "name": "Shovelhead",
       "type": "item",
-      "sortid": 31,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gel_chunk"
-    },
-    {
-      "name": "GelChance",
-      "type": "loottable",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gel_chance"
-    },
-    {
-      "name": "RubyShovelToolInHandTick",
-      "type": "procedure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_shovel_tool_in_hand_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
+      "registry_name": "shovelhead",
       "path": "~/Tools"
     },
     {
@@ -298,94 +388,43 @@
       "registry_name": "extractor"
     },
     {
-      "name": "Extractorgui",
-      "type": "gui",
-      "sortid": 36,
+      "name": "EndlessDesert",
+      "type": "biome",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "extractorgui"
+      "registry_name": "endless_desert",
+      "path": "~/Hyrion"
     },
     {
-      "name": "OnButtonClick",
-      "type": "procedure",
-      "sortid": 37,
+      "name": "HyrionRealm",
+      "type": "dimension",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "on_button_click",
+      "registry_name": "hyrion_realm",
       "metadata": {
-        "dependencies": []
-      }
+        "ep": false
+      },
+      "path": "~/Hyrion"
     },
     {
-      "name": "RubySmelt",
-      "type": "recipe",
-      "sortid": 38,
+      "name": "HeatmoreDesert",
+      "type": "biome",
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_smelt",
-      "path": "~/Recipes"
+      "registry_name": "heatmore_desert",
+      "path": "~/Hyrion"
     },
     {
-      "name": "Coatedshovel",
-      "type": "tool",
-      "sortid": 39,
+      "name": "RubyLakes",
+      "type": "biome",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coatedshovel",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Shovelhead",
-      "type": "item",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shovelhead",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Handle",
-      "type": "item",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "handle",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Spadeprocessing",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spadeprocessing",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "Handlerecipe",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "handlerecipe",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "Spadeassembly",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spadeassembly",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "CreativePower",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creative_power"
+      "registry_name": "ruby_lakes",
+      "path": "~/Hyrion"
     }
   ],
   "variable_elements": [],
@@ -419,7 +458,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Recipes",
+        "name": "Jules",
         "children": []
       },
       {
@@ -427,11 +466,15 @@
         "children": []
       },
       {
+        "name": "Recipes",
+        "children": []
+      },
+      {
         "name": "Materials",
         "children": []
       },
       {
-        "name": "Jules",
+        "name": "Hyrion",
         "children": []
       }
     ]
