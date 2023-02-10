@@ -172,7 +172,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "exchange_one",
-      "path": "~/Tools"
+      "path": "~/Jules"
     },
     {
       "name": "RubyShovel",
