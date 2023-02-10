@@ -19,19 +19,22 @@
             "falpha": 0.0
           },
           "name": "<fluidlevel>",
-          "x": 181,
-          "y": 82
+          "x": 132,
+          "y": 53
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "die",
+          "text": "Switch",
+          "onClick": {
+            "name": "OnButtonClick"
+          },
           "width": 40,
           "height": 20,
-          "name": "die",
-          "x": 193,
-          "y": 160
+          "name": "Switch",
+          "x": 240,
+          "y": 170
         }
       },
       {
@@ -43,8 +46,8 @@
             "falpha": 0.0
           },
           "name": "<BNBT:logic:State>",
-          "x": 175,
-          "y": 107
+          "x": 132,
+          "y": 71
         }
       }
     ],
@@ -53,7 +56,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

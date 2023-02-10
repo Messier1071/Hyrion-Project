@@ -3,7 +3,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "currency:plasma"
+    "item": "currency:deleted_mod_element"
   },
   "result": "currency:ruby"
 }
