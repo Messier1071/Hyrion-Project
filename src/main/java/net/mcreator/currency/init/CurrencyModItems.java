@@ -49,7 +49,6 @@ public class CurrencyModItems {
 	public static final RegistryObject<Item> COATEDSHOVEL = REGISTRY.register("coatedshovel", () -> new CoatedshovelItem());
 	public static final RegistryObject<Item> HANDLE = REGISTRY.register("handle", () -> new HandleItem());
 	public static final RegistryObject<Item> SHOVELHEAD = REGISTRY.register("shovelhead", () -> new ShovelheadItem());
-	public static final RegistryObject<Item> CREATIVE_POWER = block(CurrencyModBlocks.CREATIVE_POWER, CurrencyModTabs.TAB_HYRION);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

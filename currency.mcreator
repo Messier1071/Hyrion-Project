@@ -40,15 +40,6 @@
       "path": "~/Materials"
     },
     {
-      "name": "RubyCraft",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_craft",
-      "path": "~/Recipes"
-    },
-    {
       "name": "JuleCraft",
       "type": "recipe",
       "sortid": 5,
@@ -202,24 +193,6 @@
       "path": "~/Materials"
     },
     {
-      "name": "Bottle",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bottle",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "GelCraft",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gel_craft",
-      "path": "~/Recipes"
-    },
-    {
       "name": "Spadeprocessing",
       "type": "recipe",
       "sortid": 41,
@@ -236,31 +209,6 @@
       "locked_code": false,
       "registry_name": "spadeassembly",
       "path": "~/Recipes"
-    },
-    {
-      "name": "Extractorgui",
-      "type": "gui",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "extractorgui"
-    },
-    {
-      "name": "RubyShovelToolInHandTick",
-      "type": "procedure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_shovel_tool_in_hand_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Tools"
     },
     {
       "name": "GelChunk",
@@ -304,14 +252,6 @@
       "locked_code": false,
       "registry_name": "handle",
       "path": "~/Tools"
-    },
-    {
-      "name": "CreativePower",
-      "type": "block",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creative_power"
     },
     {
       "name": "Handlerecipe",
@@ -386,45 +326,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "extractor"
-    },
-    {
-      "name": "EndlessDesert",
-      "type": "biome",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "endless_desert",
-      "path": "~/Hyrion"
-    },
-    {
-      "name": "HyrionRealm",
-      "type": "dimension",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hyrion_realm",
-      "metadata": {
-        "ep": false
-      },
-      "path": "~/Hyrion"
-    },
-    {
-      "name": "HeatmoreDesert",
-      "type": "biome",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heatmore_desert",
-      "path": "~/Hyrion"
-    },
-    {
-      "name": "RubyLakes",
-      "type": "biome",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_lakes",
-      "path": "~/Hyrion"
     }
   ],
   "variable_elements": [],
@@ -433,7 +334,6 @@
     "en_us": {
       "item.currency.fifty_jule": "Fifty Jule",
       "item.currency.jule": "Jule",
-      "block.currency.creative_power": "Creative Power",
       "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
       "block.currency.gelcube": "Gel cube",
       "block.currency.hyrion_ruby": "Hyrion Ruby",
