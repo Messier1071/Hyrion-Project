@@ -9,15 +9,15 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.GOLDEN_SHOVEL"
+      "value": "CUSTOM:Handle"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:GelChunk"
+      "value": "CUSTOM:Shovelhead"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Coatedshovel"
+      "value": "CUSTOM:RubyShovel"
     },
-    "name": "ruby_spade",
+    "name": "spadeassembly",
     "namespace": "mod"
   }
 }

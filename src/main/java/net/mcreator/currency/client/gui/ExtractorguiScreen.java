@@ -85,6 +85,14 @@ public class ExtractorguiScreen extends AbstractContainerScreen<ExtractorguiMenu
 				return _retval.get();
 			}
 		}.getFluidTankLevel(new BlockPos((int) x, (int) y, (int) z), 1)) + "", 55, 45, -12829636);
+		this.font.draw(poseStack, "" + (new Object() {
+			public boolean getValue(BlockPos pos, String tag) {
+				BlockEntity BlockEntity = world.getBlockEntity(pos);
+				if (BlockEntity != null)
+					return BlockEntity.getTileData().getBoolean(tag);
+				return false;
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "State")) + "", 49, 70, -12829636);
 	}
 
 	@Override

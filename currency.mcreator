@@ -193,24 +193,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "BottledRuby",
-      "type": "item",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bottled_ruby",
-      "path": "~/Materials"
-    },
-    {
-      "name": "Plasma",
-      "type": "item",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plasma",
-      "path": "~/Materials"
-    },
-    {
       "name": "PlasmaBottle",
       "type": "item",
       "sortid": 24,
@@ -226,15 +208,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bottle",
-      "path": "~/Recipes"
-    },
-    {
-      "name": "RubyBottleCraft",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_bottle_craft",
       "path": "~/Recipes"
     },
     {
@@ -340,24 +313,7 @@
       "locked_code": false,
       "registry_name": "on_button_click",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -368,6 +324,68 @@
       "locked_code": false,
       "registry_name": "ruby_smelt",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Coatedshovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coatedshovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Shovelhead",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shovelhead",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Handle",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Spadeprocessing",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spadeprocessing",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Handlerecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handlerecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Spadeassembly",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spadeassembly",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CreativePower",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_power"
     }
   ],
   "variable_elements": [],
@@ -375,15 +393,17 @@
   "language_map": {
     "en_us": {
       "item.currency.fifty_jule": "Fifty Jule",
-      "item.currency.plasma": "Hyrion Ruby Gel",
       "item.currency.jule": "Jule",
+      "block.currency.creative_power": "Creative Power",
       "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
       "block.currency.gelcube": "Gel cube",
       "block.currency.hyrion_ruby": "Hyrion Ruby",
       "item.currency.gel_chunk": "Gel Chunk",
       "item.currency.ruby_axe": "Hyrion Ruby Axe",
       "item.currency.plasma_bottle": "Plasma Bottle",
+      "item.currency.handle": "Handle",
       "item.currency.ruby_shovel": "Hyrion Ruby Shovel",
+      "item.currency.coatedshovel": "Coatedshovel",
       "item.currency.ruby_pickaxe": "Hyrion Ruby Pickaxe",
       "block.currency.extractor": "Extractor",
       "itemGroup.tabhyrion": "Hyrion",
@@ -391,7 +411,7 @@
       "fluid.currency.hyrion_ruby": "Hyrion Ruby",
       "item.currency.ruby": "Ruby",
       "item.currency.five_jule": "Five Jule",
-      "item.currency.bottled_ruby": "Hyrion Ruby Gel Bottle",
+      "item.currency.shovelhead": "Shovelhead",
       "item.currency.twenty_five_jule": "Twenty Five Jule"
     }
   },

@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plasma",
+    "texture": "shovelhead",
     "customModelName": "Normal",
-    "name": "Hyrion Ruby Gel",
-    "rarity": "RARE",
+    "name": "Shovelhead",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Hyrion"
     },
@@ -16,17 +16,15 @@
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": "Items.BUCKET"
+      "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
-    "stayInGridWhenCrafting": true,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Useless Unless Bottled"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

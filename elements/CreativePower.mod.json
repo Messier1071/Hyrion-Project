@@ -2,12 +2,12 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "blast_furnace_top",
-    "textureTop": "dispenser_front_vertical",
-    "textureLeft": "extractorsides",
-    "textureFront": "extractorsides",
-    "textureRight": "extractorsides",
-    "textureBack": "extractorsides",
+    "texture": "chain_command_block_front",
+    "textureTop": "chain_command_block_front",
+    "textureLeft": "chain_command_block_front",
+    "textureFront": "chain_command_block_front",
+    "textureRight": "chain_command_block_front",
+    "textureBack": "chain_command_block_front",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Extractor",
+    "name": "Creative Power",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -107,8 +107,8 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "Extractorgui",
-    "openGUIOnRightClick": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -116,17 +116,13 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
-    "energyInitial": 0,
+    "energyInitial": 2147483647,
     "energyCapacity": 400000,
     "energyMaxReceive": 200,
     "energyMaxExtract": 200,
-    "isFluidTank": true,
+    "isFluidTank": false,
     "fluidCapacity": 8000,
-    "fluidRestrictions": [
-      {
-        "value": "CUSTOM:HyrionRuby"
-      }
-    ],
+    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

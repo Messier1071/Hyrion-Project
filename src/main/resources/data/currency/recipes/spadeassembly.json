@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "currency:handle"
+  },
+  "addition": {
+    "item": "currency:shovelhead"
+  },
+  "result": {
+    "item": "currency:ruby_shovel"
+  }
+}

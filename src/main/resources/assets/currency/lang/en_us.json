@@ -1,14 +1,16 @@
 {
   "item.currency.fifty_jule": "Fifty Jule",
-  "item.currency.plasma": "Hyrion Ruby Gel",
   "item.currency.jule": "Jule",
+  "block.currency.creative_power": "Creative Power",
   "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
   "block.currency.gelcube": "Gel cube",
   "block.currency.hyrion_ruby": "Hyrion Ruby",
   "item.currency.gel_chunk": "Gel Chunk",
   "item.currency.ruby_axe": "Hyrion Ruby Axe",
   "item.currency.plasma_bottle": "Plasma Bottle",
+  "item.currency.handle": "Handle",
   "item.currency.ruby_shovel": "Hyrion Ruby Shovel",
+  "item.currency.coatedshovel": "Coatedshovel",
   "item.currency.ruby_pickaxe": "Hyrion Ruby Pickaxe",
   "block.currency.extractor": "Extractor",
   "itemGroup.tabhyrion": "Hyrion",
@@ -16,6 +18,6 @@
   "fluid.currency.hyrion_ruby": "Hyrion Ruby",
   "item.currency.ruby": "Ruby",
   "item.currency.five_jule": "Five Jule",
-  "item.currency.bottled_ruby": "Hyrion Ruby Gel Bottle",
+  "item.currency.shovelhead": "Shovelhead",
   "item.currency.twenty_five_jule": "Twenty Five Jule"
 }

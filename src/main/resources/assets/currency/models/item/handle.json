@@ -1,0 +1,7 @@
+{
+  "parent": "currency:custom/handle",
+  "textures": {
+    "0": "currency:blocks/obsidian",
+    "particle": "currency:items/handle"
+  }
+}
