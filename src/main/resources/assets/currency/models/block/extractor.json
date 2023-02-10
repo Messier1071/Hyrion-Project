@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "currency:blocks/blast_furnace_top",
-    "up": "currency:blocks/dispenser_front_vertical",
-    "north": "currency:blocks/extractorsides",
-    "east": "currency:blocks/extractorsides",
-    "south": "currency:blocks/extractorsides",
-    "west": "currency:blocks/extractorsides",
-    "particle": "currency:blocks/blast_furnace_top"
+    "down": "currency:blocks/bottle",
+    "up": "currency:blocks/hundredjule",
+    "north": "currency:blocks/ruby",
+    "east": "currency:blocks/fivejule",
+    "south": "currency:blocks/water_still",
+    "west": "currency:blocks/flowingruby",
+    "particle": "currency:blocks/bottle"
   }
 }

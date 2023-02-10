@@ -20,6 +20,7 @@ import net.mcreator.currency.item.RubyPickaxeItem;
 import net.mcreator.currency.item.RubyItem;
 import net.mcreator.currency.item.RubyAxeItem;
 import net.mcreator.currency.item.PlasmaBottleItem;
+import net.mcreator.currency.item.PickaxeheadItem;
 import net.mcreator.currency.item.OneHundredJuleItem;
 import net.mcreator.currency.item.JuleItem;
 import net.mcreator.currency.item.HyrionRubyItem;
@@ -28,6 +29,7 @@ import net.mcreator.currency.item.GelChunkItem;
 import net.mcreator.currency.item.FiveJuleItem;
 import net.mcreator.currency.item.FiftyJuleItem;
 import net.mcreator.currency.item.CoatedshovelItem;
+import net.mcreator.currency.item.AxeheadItem;
 import net.mcreator.currency.CurrencyMod;
 
 public class CurrencyModItems {
@@ -50,6 +52,8 @@ public class CurrencyModItems {
 	public static final RegistryObject<Item> HANDLE = REGISTRY.register("handle", () -> new HandleItem());
 	public static final RegistryObject<Item> SHOVELHEAD = REGISTRY.register("shovelhead", () -> new ShovelheadItem());
 	public static final RegistryObject<Item> CREATIVE_POWER = block(CurrencyModBlocks.CREATIVE_POWER, CurrencyModTabs.TAB_HYRION);
+	public static final RegistryObject<Item> PICKAXEHEAD = REGISTRY.register("pickaxehead", () -> new PickaxeheadItem());
+	public static final RegistryObject<Item> AXEHEAD = REGISTRY.register("axehead", () -> new AxeheadItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.currency.init.CurrencyModTabs;
 
-public class ShovelheadItem extends Item {
-	public ShovelheadItem() {
-		super(new Item.Properties().tab(CurrencyModTabs.TAB_HYRION).stacksTo(64).rarity(Rarity.COMMON));
+public class PickaxeheadItem extends Item {
+	public PickaxeheadItem() {
+		super(new Item.Properties().tab(CurrencyModTabs.TAB_HYRION).stacksTo(64).rarity(Rarity.RARE));
 	}
 }

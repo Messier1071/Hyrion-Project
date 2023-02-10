@@ -12,10 +12,10 @@
       "value": "Items.GOLDEN_SHOVEL"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:GelChunk"
+      "value": "CUSTOM:Ruby"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Coatedshovel"
+      "value": "CUSTOM:RubyShovel"
     },
     "name": "ruby_spade",
     "namespace": "mod"

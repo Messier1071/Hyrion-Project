@@ -243,7 +243,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "extractorgui"
+      "registry_name": "extractorgui",
+      "path": "~/Extraction"
     },
     {
       "name": "RubyShovelToolInHandTick",
@@ -268,7 +269,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gel_chunk"
+      "registry_name": "gel_chunk",
+      "path": "~/Materials"
     },
     {
       "name": "GelChance",
@@ -276,7 +278,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gel_chance"
+      "registry_name": "gel_chance",
+      "path": "~/Extraction"
     },
     {
       "name": "RubySmelt",
@@ -311,7 +314,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creative_power"
+      "registry_name": "creative_power",
+      "path": "~/Extraction"
     },
     {
       "name": "Handlerecipe",
@@ -331,7 +335,8 @@
       "registry_name": "on_button_click",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/Extraction"
     },
     {
       "name": "Gelcube",
@@ -339,7 +344,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gelcube"
+      "registry_name": "gelcube",
+      "path": "~/Materials"
     },
     {
       "name": "HyrionRubyExposedToAir",
@@ -385,46 +391,26 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "extractor"
+      "registry_name": "extractor",
+      "path": "~/Extraction"
     },
     {
-      "name": "EndlessDesert",
-      "type": "biome",
-      "sortid": 29,
+      "name": "Pickaxehead",
+      "type": "item",
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "endless_desert",
-      "path": "~/Hyrion"
+      "registry_name": "pickaxehead",
+      "path": "~/Tools"
     },
     {
-      "name": "HyrionRealm",
-      "type": "dimension",
-      "sortid": 32,
+      "name": "Axehead",
+      "type": "item",
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hyrion_realm",
-      "metadata": {
-        "ep": false
-      },
-      "path": "~/Hyrion"
-    },
-    {
-      "name": "HeatmoreDesert",
-      "type": "biome",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heatmore_desert",
-      "path": "~/Hyrion"
-    },
-    {
-      "name": "RubyLakes",
-      "type": "biome",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_lakes",
-      "path": "~/Hyrion"
+      "registry_name": "axehead",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -434,7 +420,9 @@
       "item.currency.fifty_jule": "Fifty Jule",
       "item.currency.jule": "Jule",
       "block.currency.creative_power": "Creative Power",
+      "item.currency.axehead": "Axehead",
       "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
+      "item.currency.pickaxehead": "Pickaxehead",
       "block.currency.gelcube": "Gel cube",
       "block.currency.hyrion_ruby": "Hyrion Ruby",
       "item.currency.gel_chunk": "Gel Chunk",
@@ -475,6 +463,10 @@
       },
       {
         "name": "Hyrion",
+        "children": []
+      },
+      {
+        "name": "Extraction",
         "children": []
       }
     ]

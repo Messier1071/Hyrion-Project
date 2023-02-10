@@ -55,8 +55,6 @@ public class CurrencyMod {
 
 		CurrencyModFluids.REGISTRY.register(bus);
 
-		CurrencyModBiomes.REGISTRY.register(bus);
-
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
