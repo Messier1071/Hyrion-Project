@@ -1,44 +1,11 @@
 package net.mcreator.currency.block.entity;
 
-import net.minecraftforge.items.wrapper.SidedInvWrapper;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fluids.capability.templates.FluidTank;
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
-import net.minecraftforge.energy.EnergyStorage;
-import net.minecraftforge.energy.CapabilityEnergy;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.common.capabilities.Capability;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.WorldlyContainer;
-import net.minecraft.world.ContainerHelper;
-import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.nbt.IntTag;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.NonNullList;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.currency.world.inventory.ExtractorguiMenu;
-import net.mcreator.currency.init.CurrencyModFluids;
-import net.mcreator.currency.init.CurrencyModBlockEntities;
-
 import javax.annotation.Nullable;
 
-import java.util.stream.IntStream;
-
-import io.netty.buffer.Unpooled;
-
 public class ExtractorBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ExtractorBlockEntity(BlockPos position, BlockState state) {
@@ -48,11 +15,15 @@ public class ExtractorBlockEntity extends RandomizableContainerBlockEntity imple
 	@Override
 	public void load(CompoundTag compound) {
 		super.load(compound);
+
 		if (!this.tryLoadLootTable(compound))
 			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
+
 		ContainerHelper.loadAllItems(compound, this.stacks);
+
 		if (compound.get("energyStorage") instanceof IntTag intTag)
 			energyStorage.deserializeNBT(intTag);
+
 		if (compound.get("fluidTank") instanceof CompoundTag compoundTag)
 			fluidTank.readFromNBT(compoundTag);
 	}
@@ -60,10 +31,13 @@ public class ExtractorBlockEntity extends RandomizableContainerBlockEntity imple
 	@Override
 	public void saveAdditional(CompoundTag compound) {
 		super.saveAdditional(compound);
+
 		if (!this.trySaveLootTable(compound)) {
 			ContainerHelper.saveAllItems(compound, this.stacks);
 		}
+
 		compound.put("energyStorage", energyStorage.serializeNBT());
+
 		compound.put("fluidTank", fluidTank.writeToNBT(new CompoundTag()));
 	}
 
@@ -161,9 +135,11 @@ public class ExtractorBlockEntity extends RandomizableContainerBlockEntity imple
 			return retval;
 		}
 	};
+
 	private final FluidTank fluidTank = new FluidTank(8000, fs -> {
 		if (fs.getFluid() == CurrencyModFluids.HYRION_RUBY.get())
 			return true;
+
 		return false;
 	}) {
 		@Override
@@ -178,10 +154,13 @@ public class ExtractorBlockEntity extends RandomizableContainerBlockEntity imple
 	public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 		if (!this.remove && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
 			return handlers[facing.ordinal()].cast();
+
 		if (!this.remove && capability == CapabilityEnergy.ENERGY)
 			return LazyOptional.of(() -> energyStorage).cast();
+
 		if (!this.remove && capability == CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY)
 			return LazyOptional.of(() -> fluidTank).cast();
+
 		return super.getCapability(capability, facing);
 	}
 
@@ -191,4 +170,5 @@ public class ExtractorBlockEntity extends RandomizableContainerBlockEntity imple
 		for (LazyOptional<? extends IItemHandler> handler : handlers)
 			handler.invalidate();
 	}
+
 }

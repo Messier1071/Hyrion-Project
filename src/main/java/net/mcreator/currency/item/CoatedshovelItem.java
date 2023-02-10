@@ -1,12 +1,7 @@
 
 package net.mcreator.currency.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.currency.init.CurrencyModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class CoatedshovelItem extends ShovelItem {
 	public CoatedshovelItem() {
@@ -34,6 +29,11 @@ public class CoatedshovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(CurrencyModTabs.TAB_HYRION));
+		},
+
+				1, -3f,
+
+				new Item.Properties().tab(CurrencyModTabs.TAB_HYRION));
 	}
+
 }

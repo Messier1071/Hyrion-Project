@@ -386,6 +386,45 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "extractor"
+    },
+    {
+      "name": "EndlessDesert",
+      "type": "biome",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endless_desert",
+      "path": "~/Hyrion"
+    },
+    {
+      "name": "HyrionRealm",
+      "type": "dimension",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyrion_realm",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Hyrion"
+    },
+    {
+      "name": "HeatmoreDesert",
+      "type": "biome",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatmore_desert",
+      "path": "~/Hyrion"
+    },
+    {
+      "name": "RubyLakes",
+      "type": "biome",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_lakes",
+      "path": "~/Hyrion"
     }
   ],
   "variable_elements": [],
@@ -419,7 +458,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Jules",
+        "name": "Recipes",
         "children": []
       },
       {
@@ -427,11 +466,11 @@
         "children": []
       },
       {
-        "name": "Recipes",
+        "name": "Materials",
         "children": []
       },
       {
-        "name": "Materials",
+        "name": "Jules",
         "children": []
       },
       {
