@@ -23,6 +23,7 @@ import net.mcreator.currency.item.PlasmaBottleItem;
 import net.mcreator.currency.item.OneHundredJuleItem;
 import net.mcreator.currency.item.JuleItem;
 import net.mcreator.currency.item.HyrionRubyItem;
+import net.mcreator.currency.item.GelChunkItem;
 import net.mcreator.currency.item.FiveJuleItem;
 import net.mcreator.currency.item.FiftyJuleItem;
 import net.mcreator.currency.item.BottledRubyItem;
@@ -44,6 +45,8 @@ public class CurrencyModItems {
 	public static final RegistryObject<Item> PLASMA = REGISTRY.register("plasma", () -> new PlasmaItem());
 	public static final RegistryObject<Item> PLASMA_BOTTLE = REGISTRY.register("plasma_bottle", () -> new PlasmaBottleItem());
 	public static final RegistryObject<Item> GELCUBE = block(CurrencyModBlocks.GELCUBE, CurrencyModTabs.TAB_HYRION);
+	public static final RegistryObject<Item> GEL_CHUNK = REGISTRY.register("gel_chunk", () -> new GelChunkItem());
+	public static final RegistryObject<Item> EXTRACTOR = block(CurrencyModBlocks.EXTRACTOR, CurrencyModTabs.TAB_HYRION);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

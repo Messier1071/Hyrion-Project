@@ -238,14 +238,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "HyrionDeserts",
-      "type": "biome",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hyrion_deserts"
-    },
-    {
       "name": "GelCraft",
       "type": "recipe",
       "sortid": 28,
@@ -290,6 +282,92 @@
         ]
       },
       "path": "~/Materials"
+    },
+    {
+      "name": "GelChunk",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_chunk"
+    },
+    {
+      "name": "GelChance",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_chance"
+    },
+    {
+      "name": "RubyShovelToolInHandTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Extractor",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractor"
+    },
+    {
+      "name": "Extractorgui",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extractorgui"
+    },
+    {
+      "name": "OnButtonClick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_button_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubySmelt",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_smelt",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -300,13 +378,14 @@
       "item.currency.plasma": "Hyrion Ruby Gel",
       "item.currency.jule": "Jule",
       "item.currency.hyrion_ruby_bucket": "Hyrion Ruby Bucket",
-      "biome.currency.hyrion_deserts": "Hyrion Deserts",
       "block.currency.gelcube": "Gel cube",
       "block.currency.hyrion_ruby": "Hyrion Ruby",
+      "item.currency.gel_chunk": "Gel Chunk",
       "item.currency.ruby_axe": "Hyrion Ruby Axe",
       "item.currency.plasma_bottle": "Plasma Bottle",
       "item.currency.ruby_shovel": "Hyrion Ruby Shovel",
       "item.currency.ruby_pickaxe": "Hyrion Ruby Pickaxe",
+      "block.currency.extractor": "Extractor",
       "itemGroup.tabhyrion": "Hyrion",
       "item.currency.one_hundred_jule": "One Hundred Jule",
       "fluid.currency.hyrion_ruby": "Hyrion Ruby",

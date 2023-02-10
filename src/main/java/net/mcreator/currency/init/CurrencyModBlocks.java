@@ -16,12 +16,14 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.currency.block.HyrionRubyBlock;
 import net.mcreator.currency.block.GelcubeBlock;
+import net.mcreator.currency.block.ExtractorBlock;
 import net.mcreator.currency.CurrencyMod;
 
 public class CurrencyModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, CurrencyMod.MODID);
 	public static final RegistryObject<Block> HYRION_RUBY = REGISTRY.register("hyrion_ruby", () -> new HyrionRubyBlock());
 	public static final RegistryObject<Block> GELCUBE = REGISTRY.register("gelcube", () -> new GelcubeBlock());
+	public static final RegistryObject<Block> EXTRACTOR = REGISTRY.register("extractor", () -> new ExtractorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

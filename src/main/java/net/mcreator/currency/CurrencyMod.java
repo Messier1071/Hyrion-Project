@@ -30,7 +30,7 @@ import net.mcreator.currency.init.CurrencyModTabs;
 import net.mcreator.currency.init.CurrencyModItems;
 import net.mcreator.currency.init.CurrencyModFluids;
 import net.mcreator.currency.init.CurrencyModBlocks;
-import net.mcreator.currency.init.CurrencyModBiomes;
+import net.mcreator.currency.init.CurrencyModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,9 +51,9 @@ public class CurrencyMod {
 		CurrencyModBlocks.REGISTRY.register(bus);
 		CurrencyModItems.REGISTRY.register(bus);
 
-		CurrencyModFluids.REGISTRY.register(bus);
+		CurrencyModBlockEntities.REGISTRY.register(bus);
 
-		CurrencyModBiomes.REGISTRY.register(bus);
+		CurrencyModFluids.REGISTRY.register(bus);
 
 	}
 

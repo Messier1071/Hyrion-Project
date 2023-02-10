@@ -43,7 +43,10 @@
     "spawnWorldTypes": [],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:HyrionDeserts"
+        "value": "desert"
+      },
+      {
+        "value": "desert_hills"
       }
     ],
     "onNeighbourChanges": {

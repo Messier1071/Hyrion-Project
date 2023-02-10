@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "currency:block/extractor"
+    }
+  }
+}

@@ -3,23 +3,23 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "edible_gel",
+    "texture": "gelchunk",
     "customModelName": "Normal",
-    "name": "Hyrion Ruby Gel Bottle",
-    "rarity": "EPIC",
+    "name": "Gel Chunk",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Hyrion"
+      "value": "MISC"
     },
-    "stackSize": 15,
+    "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -29,14 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 4,
-    "saturation": 5.0,
+    "saturation": 0.3,
     "eatResultItem": {
-      "value": "Items.GLASS_BOTTLE"
+      "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "drink"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }
